@@ -1,0 +1,7 @@
+services:
+  oracle:
+    image: 'my-oracle:latest'
+    environment:
+      - 'ORACLE_PASSWORD=Jelivel1080'
+    ports:
+      - '1521'
